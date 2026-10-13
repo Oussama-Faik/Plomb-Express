@@ -48,6 +48,7 @@
 .hero{
     display: flex;
     justify-content: space-around;
+    background-color:#F3F7FA;
 }
 .boutons{
     display: flex;
@@ -82,4 +83,15 @@ a {
 .logotext2{
     color: #0866C2;
     font-weight: bolder;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefit1{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px #19334d solid;
 }
