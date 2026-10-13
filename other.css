@@ -1,0 +1,85 @@
+
+.parent{
+    display: flex;
+    flex-wrap: nowrap;
+
+    /* justify-content: space-  ; */
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    width: 33%;
+    
+}
+.middlepart{
+    
+    
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap :20px;
+    
+}
+.cta{
+    
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #FF6418;
+    border:none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.boutons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.firstline{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.image{
+    padding: 20px 0px;
+
+}
+.logotext{
+    display: flex;
+    align-items: center;
+
+}
+.logotext1{
+    color: #102A43;
+    font-weight: bolder;
+
+}
+.logotext2{
+    color: #0866C2;
+    font-weight: bolder;
+}
