@@ -89,9 +89,41 @@ a {
     justify-content: space-evenly;
 }
 .benefit1{
-    background-color: beige;
+    border: 1px solid #dce5ed;
+    border-radius: 15px;
+    width: 15%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    width: 20%;
-    border: 1px #19334d solid;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: #19334d;
+}
+.benefits{
+    display: flex;
+    justify-content: space-around;
+}
+.services{
+
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    background-color: #dce5ed;
+}
+.POURQUOINOUSCHOISIR{
+    background-color: antiquewhite;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.lienoutil{
+    display: flex;
+    flex-direction: column;
 }
