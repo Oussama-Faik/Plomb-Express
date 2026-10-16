@@ -1,0 +1,143 @@
+
+
+.parent{
+    display: flex;
+    /* flex-wrap: nowrap; */
+
+    /* justify-content: space-  ; */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap:7px;
+    width: 33%;
+    
+}
+.middlepart{
+    
+    
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap :20px;
+    
+}
+.cta{
+    
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+.bouton{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #FF6418;
+    border:none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color:#F3F7FA;
+}
+.boutons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.firstline{
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.image{
+    padding: 20px 0px;
+
+}
+.logotext{
+    display: flex;
+    align-items: center;
+
+}
+.logotext1{
+    color: #102A43;
+    font-weight: bolder;
+
+}
+.logotext2{
+    color: #0866C2;
+    font-weight: bolder;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefit1{
+    border: 1px solid #dce5ed;
+    border-radius: 15px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+    color: #19334d;
+}
+.benefits{
+    display: flex;
+    justify-content: space-around;
+}
+.services{
+
+}
+.part2{
+    display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+row-gap: 20px;
+
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+}
+
+.POURQUOINOUSCHOISIR{
+    background-color: #F3F7FA;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #102A43;
+    color: white;
+}
+.lienoutil{
+    display: flex;
+    flex-direction: column;
+}
+.savoirfaire{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
